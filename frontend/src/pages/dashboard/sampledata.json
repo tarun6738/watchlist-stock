@@ -1,0 +1,32 @@
+{[
+    {
+
+    
+    "symbols": [
+        "RELIANCE.BSE",
+        "RELI",
+        "RELIW",
+        "RELCAPITAL.BSE",
+        "RELCHEMQ.BSE",
+        "RLBS",         
+        "RCOM.BSE",
+        "540709.BSE",
+        "532712.BSE",
+        "503162.BSE",
+    ],
+},
+    {
+        "1. open": "170.6800",
+        "2. high": "170.7500",
+        "3. low": "170.6500",    //get symbol data
+        "4. close": "170.7500",
+        "5. volume": "2685"
+    }
+]
+    
+}
+
+
+
+
+}

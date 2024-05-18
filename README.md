@@ -1,56 +1,46 @@
-Project Title
+# Stock Track (Stock Watchlist)
 
-[Stock Watchlist]
+This is a stock monitoring platform where users can log in to monitor stock information. Users will also be able to create and manage their own watchlists.
 
-Description
+## Table of Contents
 
-[Simple Watchlist to keep track on your favourite stocks ]
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies](#technologies)
+- [API Integration](#api-integration)
 
-Setup Instructions (Local Deployment)
+## Installation
 
-Prerequisites:
+Before getting started, make sure you have Node.js and npm installed on your machine.
 
-Node.js:  Ensure you have Node.js on your system
-Mongo DB : Make sure you have MongoDB (mongosh)
-Instructions:
+1. **Clone the repository:**
+   git clone https://github.com/tarun6738/watchlist-stock.git
 
-Clone the Repository:
-Open your terminal or command prompt and navigate to the desired directory using the cd command. Run the following command to clone this repository:
+2. **Install dependencies:**
+   npm install
+   
+## Usage
+  To start the development server, run:
+  npm start (in both frontend & backend folder)
+  Visit http://localhost:3000 in your browser to explore frontend.
 
-git clone <url>
-Replace <url> with the actual URL of the GitHub repository.
+## Features
+  - The dashboard will display the latest stock values of the symbols in the watchlist.
+  - The platform will be able to handle multiple users concurrently, each having different watchlists.
+  - The platform uses MongoDB for efficient retrieval.
+  - That platform has simple & secure authentication & authorization.
 
-Install Dependencies:
-Navigate into the project directory:
+## Technologies
+   - React
+   - Axios
+   - React Router
+   - React Icons
+   - tailwind css, Material UI
+   - Node Js
+   - Bcrypt JS
+     
 
-cd client and cd backend
-Then, install the project's dependencies using npm install
+## API Integration
+   Stock Track integrates with The AlphaVantage API for fetching real-time stock data.
 
-
-Start MongoDB Server:
-Follow the installation instructions for MongoDB to set it up and start the server.
-
-Start Frontend Server:
-Navigate to the client directory within the project:
-
-
-cd client
-
-npm start
-
-
-This will typically launch the frontend development server, usually accessible in your web browser at http://localhost:3000 
-
-Start Backend Server:
-Navigate back to the project's root directory:
-
-cd ..
-
-Then, navigate to the backend directory:
-
-cd backend
-
-npm start
-
-
-This will typically start the backend API server
